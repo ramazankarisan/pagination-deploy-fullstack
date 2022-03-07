@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-grid .col {
+   min-width:50%;
+   flex-wrap: wrap;
+   display: block;
+   flex-basis: 0;
+   flex-grow: 1;
+   flex-shrink: 1;
+   padding: .75rem;
+}
